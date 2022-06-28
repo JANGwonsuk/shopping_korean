@@ -16,19 +16,19 @@ script:
 
   - docker push jjangga7000/project
 
-deploy:
-  provider: elasticbeanstalks
-  region: "ap-northeast-2"
-  app: "test"                    #앱 이름
-  env: "Test-env"               #EB 이름
-  bucket_name: 	elasticbeanstalk-ap-northeast-2-818548501241    #S3 버킷 이름
-  skip_cleanup: true
-  bucket_path: "app"            #앱이름
-  on:
-    branch: main
-  
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWS_SECRET_ACCESS_KEY
+#deploy:
+#  provider: elasticbeanstalks
+#  region: "ap-northeast-2"
+#  app: "test"                    #앱 이름
+#  env: "Test-env"               #EB 이름
+#  bucket_name: elasticbeanstalk-ap-northeast-2-818548501241    #S3 버킷 이름
+#  skip_cleanup: true
+#  bucket_path: "app"            #앱이름
+#  on:
+#    branch: main
+#  
+#  access_key_id: $AWS_ACCESS_KEY
+#  secret_access_key: $AWS_SECRET_ACCESS_KEY
 
 
 

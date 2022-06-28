@@ -1,10 +1,22 @@
-<?php include('layouts/header.php');?>
+
+
+
+<?php include('layouts/header.php'); ?>
+
+
+
 <?php
+
+
 include('server/connection.php');
+
+
 if(!isset($_SESSION['logged_in'])){
   header('location: login.php');
   exit;
 }
+
+
 if(isset($_GET['logout'])){
   if(isset($_SESSION['logged_in'])){
     unset($_SESSION['logged_in']);

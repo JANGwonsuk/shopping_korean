@@ -68,7 +68,7 @@ if(isset($_GET['product_id'])){
 
 
             <div class="col-lg-6 col-md-12 col-12">
-                <h6>Everything is sold the moment you think about it</h6>
+                <h6>고민하는 순간 다 팔려요</h6>
                 <h3 class="py-4"><?php echo $row['product_name']; ?></h3>
                 <h2>$<?php echo $row['product_price']; ?></h2>
 
@@ -79,11 +79,11 @@ if(isset($_GET['product_id'])){
                   <input type="hidden" name="product_price" value="<?php echo $row['product_price']; ?>"/>
                   
                       <input type="number" name="product_quantity" value="1"/>
-                      <button class="buy-btn" type="submit" name="add_to_cart">Add To Cart</button>
+                      <button class="buy-btn" type="submit" name="add_to_cart">장바구니</button>
                 </form>
 
                 <div>  
-                <h4 class="mt-5 mb-5">Product details</h4>
+                <h4 class="mt-5 mb-5">상품 상세 정보</h4>
                 
                 <span>DATE : <?php echo $row['product_description']; ?>
                 </span>
@@ -98,12 +98,12 @@ if(isset($_GET['product_id'])){
                 <div>
                 <span>
                 <br>
-                  Reservation information :
+                  예약 안내 :
                 
                   <br>
-                  -Refunds are not available from one week prior to the day of the performance.
+                  - 환불은 행사 날짜 일주일 전에는 불가합니다.
                   <br>
-                  -The code will be sent to the phone number entered when booking.
+                  - 주문시 입력한 핸드폰 번호로 예약 코드를 보내드립니다.
                 </span>
                 </div>  
             </div>
@@ -122,7 +122,7 @@ if(isset($_GET['product_id'])){
           <!--Realated products-->
           <section id="related-products" class="my-5 pb-5">
             <div class="container text-center mt-5 py-5">
-              <h3>Related Products</h3>
+              <h3>인기 상품</h3>
               <hr class="mx-auto">
             </div>
             <div class="row mx-auto container-fluid">
@@ -135,9 +135,9 @@ if(isset($_GET['product_id'])){
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </div>
-                <h5 class="p-name">PSY SUMMER SWAG 2022 - INCHEON</h5>
+                <h5 class="p-name">싸이 흠뻑쇼 2022 - 인천</h5>
                 <h4 class="p-price">$100</h4>
-                <a href="single_product.php?product_id=1"><button class="buy-btn">Buy Now</button></a>
+                <a href="single_product.php?product_id=1"><button class="buy-btn">예메 하기</button></a>
               </div>
               <div class="product text-center col-lg-3 col-md-4 col-sm-12">
                 <img class="img-fluid mb-3" src="assets/imgs/WATERBOMB 2022 - THAILAND1.jpeg"/>
@@ -148,12 +148,12 @@ if(isset($_GET['product_id'])){
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </div>
-                <h5 class="p-name">WATERBOMB - THAILAND</h5>
+                <h5 class="p-name">워터밤 2022 - 태국</h5>
                 <h4 class="p-price">$100</h4>
-                <a href="single_product.php?product_id=2"><button class="buy-btn">Buy Now</button></a>
+                <a href="single_product.php?product_id=2"><button class="buy-btn">예메 하기</button></a>
               </div>
               <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-                <img class="img-fluid mb-3" src="assets/imgs/BTS WORLDTOUR - NEWYORK1.jpeg"/>
+                <img class="img-fluid mb-3" src="assets/imgs/TOTTENHAM HOTSPUR VS TEAM K-LEAGUE1.jpeg"/>
                 <div class="star">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -161,12 +161,12 @@ if(isset($_GET['product_id'])){
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </div>
-                <h5 class="p-name">BTS WORLDTOUR - NEWYORK</h5>
-                <h4 class="p-price">$150</h4>
-                <a href="single_product.php?product_id=3"><button class="buy-btn">Buy Now</button></a>
+                <h5 class="p-name">토트넘 VS 팀 K리그</h5>
+                <h4 class="p-price">$120</h4>
+                <a href="single_product.php?product_id=4"><button class="buy-btn">예메 하기</button></a>
               </div>
               <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-                <img class="img-fluid mb-3" src="assets/imgs/BLACK PINK WORLDTOUR - LONDON1.jpeg"/>
+                <img class="img-fluid mb-3" src="assets/imgs/HIPHOP PLAYA 20221.jpeg"/>
                 <div class="star">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -174,9 +174,9 @@ if(isset($_GET['product_id'])){
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </div>
-                <h5 class="p-name">BLACK PINK WORLDTOUR - LONDON</h5>
-                <h4 class="p-price">$200</h4>
-                <a href="single_product.php?product_id=4"><button class="buy-btn">Buy Now</button></a>
+                <h5 class="p-name">힙합 플레이야 2022 - 서울</h5>
+                <h4 class="p-price">$50</h4>
+                <a href="single_product.php?product_id=6"><button class="buy-btn">Buy Now</button></a>
               </div>
             </div>
           </section>

@@ -8,10 +8,10 @@
       <!--Home-->
       <section id="home">
         <div class="container">
-          <h5>With AWS</h5>
+          <h5>AWS와 함께</h5>
           <h1><span>More Faster</span> High Availability</h1>
-          <p>Now all you have to do is fast your fingers</p>
-          <a href="shop.php"><button class="buy-btn">Buy Ticket Now</button></a> 
+          <p>이제 당신의 손가락만 빠르면 된다</p>
+          <a href="shop.php"><button class="buy-btn">바로가기</button></a> 
 
         </div>
       </section>
@@ -33,25 +33,25 @@
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
             <img class="img-fluid" src="assets/imgs/PSY SUMMER SWAG 2022 - INCHEON1.jpeg"/>
             <div class="details">
-              <h2>PSY SUMMER SWAG 2022</h2>
-              <a href="single_product.php?product_id=1"><button class="buy-btn">Buy Now</button></a> 
+              <h2>싸이 흠뻑쇼 2022</h2>
+              <a href="single_product.php?product_id=1"><button class="buy-btn">바로가기</button></a> 
             </div>
           </div>
           <!--Two-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
-            <img class="img-fluid" src="assets/imgs/WATERBOMB 2022 - THAILAND1.jpeg"/>
+            <img class="img-fluid" src="assets/imgs/2022 SINCHON WATER GUB FESTIVAL1.jpeg"/>
             <div class="details">
-              <h2>WATERBOMB 2022 - THAILAND</h2>
-              <a href="single_product.php?product_id=2"><button class="buy-btn">Buy Now</button></a> 
+              <h2>2022 신촌 물총 축제</h2>
+              <a href="single_product.php?product_id=3"><button class="buy-btn">바로가기</button></a> 
             </div>
           </div>
 
           <!--Three-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
-            <img class="img-fluid" src="assets/imgs/BTS WORLDTOUR - NEWYORK1.jpeg"/>
+            <img class="img-fluid" src="assets/imgs/TOTTENHAM HOTSPUR VS TEAM K-LEAGUE1.jpeg"/>
             <div class="details">
-              <h2>BTS WORLDTOUR - NEWYORK </h2>
-              <a href="single_product.php?product_id=3"><button class="buy-btn">Buy Now</button></a> 
+              <h2>토트넘 vs 팀K리그</h2>
+              <a href="single_product.php?product_id=4"><button class="buy-btn">바로가기</button></a> 
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@
         <div class="container text-center mt-5 py-5">
           <h3>Our Featured</h3>
           <hr class="mx-auto">
-          <p>Here you can check out our featured tickets</p>
+          <p>4AM 특집 티켓을 확인할 수 있습니다</p>
         </div>
         <div class="row mx-auto container-fluid">
 
@@ -85,7 +85,7 @@
             </div>
             <h5 class="p-name"><?php echo $row['product_name']; ?></h5>
             <h4 class="p-price">$ <?php echo $row['product_price']; ?></h4>
-           <a href="<?php echo "single_product.php?product_id=". $row['product_id'];?>"><button class="buy-btn">Buy Ticket Now</button></a> 
+           <a href="<?php echo "single_product.php?product_id=". $row['product_id'];?>"><button class="buy-btn">티켓바로가기</button></a> 
           </div>
       
  
@@ -108,9 +108,9 @@
       <!--Clothes-->
       <section id="KOREA" class="my-5">
         <div class="container text-center mt-5 py-5">
-          <h3>KOREA</h3>
+          <h3>한국</h3>
           <hr class="mx-auto">
-          <p>Make Good Memories</p>
+          <p>좋은 추억 만드세요</p>
         </div>
         <div class="row mx-auto container-fluid">
 
@@ -141,9 +141,9 @@
       <!--Watches-->
      <section id="ASIA" class="my-5">
       <div class="container text-center mt-5 py-5">
-        <h3>ASIA</h3>
+        <h3>아시아</h3>
         <hr class="mx-auto">
-        <p>Make Good Memories</p>
+        <p>좋은 추억 만드세요</p>
       </div>
       <div class="row mx-auto container-fluid">
 
@@ -171,15 +171,15 @@
      </section>
 
       <!--Shoes-->
-      <section id="EUROPE" class="my-5">
+      <section id="OCEANIA" class="my-5">
         <div class="container text-center mt-5 py-5">
-          <h3>EUROPE</h3>
+          <h3>오세아니아</h3>
           <hr class="mx-auto">
-          <p>Make Good Memories</p>
+          <p>좋은 추억 만드세요</p>
         </div>
         <div class="row mx-auto container-fluid">
 
-        <?php include('server/get_EUROPE.php');?>
+        <?php include('server/get_OCEANIA.php');?>
 
         <?php while($row=$shoes->fetch_assoc()){ ?>
 

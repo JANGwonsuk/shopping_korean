@@ -32,7 +32,7 @@ if( isset($_POST['order_pay_btn']) ){
         <?php if(isset($_POST['order_status']) && $_POST['order_status'] == "not paid"){ ?>
                    <?php $amount = strval($_POST['order_total_price']); ?>
                    <?php $order_id = $_POST['order_id']; ?>
-                    <p>Total payment: $<?php echo $_POST['order_total_price']; ?></p>
+                    <p>총 금액: $<?php echo $_POST['order_total_price']; ?></p>
                     <!-- <input class="btn btn-primary" type="submit" value="Pay Now"/> -->
                        <!-- Set up a container element for the button -->
                      <div id="paypal-button-container"></div>
@@ -52,7 +52,7 @@ if( isset($_POST['order_pay_btn']) ){
         
             
            <?php } else {  ?>
-                     <p>You don't have an order</p>            
+                     <p>아직 주문한 내역이 없습니다</p>            
            <?php } ?>
                 
                

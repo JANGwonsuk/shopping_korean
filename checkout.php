@@ -40,7 +40,7 @@ if( !empty($_SESSION['cart']) ){
       <!--Checkout-->
       <section class="my-5 py-5">
         <div class="container text-center mt-3 pt-5">
-            <h2 class="form-weight-bold">Check Out</h2>
+            <h2 class="form-weight-bold">결제</h2>
             <hr class="mx-auto">
         </div>
         <div class="mx-auto container">
@@ -50,7 +50,7 @@ if( !empty($_SESSION['cart']) ){
                     <?php if(isset($_GET['message'])){ echo $_GET['message'];}?>
                     <?php if(isset($_GET['message'])) {?>
                        
-                         <a href="login.php" class="btn btn-primary">Login</a>
+                         <a href="login.php" class="btn btn-primary">로그인</a>
 
                       <?php } ?>
             

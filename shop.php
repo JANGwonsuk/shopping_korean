@@ -131,7 +131,7 @@ if(isset($_POST['search'])){
            <div class="col-lg-12 col-md-12 col-sm-12">
             
 
-            <h4>Category</h4>
+            <h4>카테고리</h4>
             <br>
                <div class="form-check">
                 <input class="form-check-input" value="KOREA" type="radio" name="category" id="category_one" <?php if(isset($category) && $category=='KOREA'){echo 'checked';}?> >
@@ -148,32 +148,13 @@ if(isset($_POST['search'])){
               </div>
 
                <div class="form-check">
-                <input class="form-check-input" value="EUROPE" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='EUROPE'){echo 'checked';}?>>
-                <label class="form-check-label" for="flexRadioDefault2">
-                  EUROPE
-                </label>
-              </div>
-
-               <div class="form-check">
                 <input class="form-check-input" value="OCEANIA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='OCEANIA'){echo 'checked';}?>>
                 <label class="form-check-label" for="flexRadioDefault2">
                   OCEANIA
                 </label>
               </div>
-              
-              <div class="form-check">
-                <input class="form-check-input" value="NORTHAMERICA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='NORTHAMERICA'){echo 'checked';}?>>
-                <label class="form-check-label" for="flexRadioDefault2">
-                  NORTH AMERICA
-                </label>
-              </div>
 
-              <div class="form-check">
-                <input class="form-check-input" value="SOUTHAMERICA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='SOUTHAMERICA'){echo 'checked';}?>>
-                <label class="form-check-label" for="flexRadioDefault2">
-                  SOUTH AMERICA
-                </label>
-              </div>
+
             </div>
           </div>
         </div>
@@ -182,7 +163,7 @@ if(isset($_POST['search'])){
          <div class="row mx-auto container mt-5">
            <div class="col-lg-12 col-md-12 col-sm-12">
 
-               <p>Price</p>
+               <p>가격</p>
                <input type="range" class="form-range w-50" name="price" value="<?php if(isset($price)){echo $price;}else{ echo "500";} ?>" min="1" max="1000" id="customRange2">
                <div class="w-50">
                  <span style="float: left;">1</span>

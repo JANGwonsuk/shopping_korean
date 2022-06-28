@@ -85,7 +85,7 @@ if(isset($_POST['login_btn'])){
                     <input type="submit" class="btn" id="login-btn" name="login_btn" value="Login"/>
                 </div>
                 <div class="form-group">
-                    <a id="register-url" href="register.php" class="btn">Don't have account? Register</a>
+                    <a id="register-url" href="register.php" class="btn">계정이 없으신가요? 회원가입하기</a>
                 </div>
               </form>
           </div>

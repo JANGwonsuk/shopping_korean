@@ -110,11 +110,11 @@ if(isset($_SESSION['logged_in'])){
              <div class="text-center mt-3 pt-5 col-lg-6 col-md-12 col-sm-12">
              <p class="text-center" style="color:green"><?php if(isset($_GET['register_success'])){ echo $_GET['register_success']; }?></p>
              <p class="text-center" style="color:green"><?php if(isset($_GET['login_success'])){ echo $_GET['login_success']; }?></p>
-                 <h3 class="font-weight-bold">Account info</h3>
+                 <h3 class="font-weight-bold">사용자 정보</h3>
                  <hr class="mx-auto">
                  <div class="account-info">
-                     <p>Name<span> <?php if(isset($_SESSION['user_name'])){ echo $_SESSION['user_name'];} ?></span></p>
-                     <p>Email<span> <?php if(isset($_SESSION['user_email'])){ echo $_SESSION['user_email'];} ?></span></p>
+                     <p>이름 :<span> <?php if(isset($_SESSION['user_name'])){ echo $_SESSION['user_name'];} ?></span></p>
+                     <p>Email : <span> <?php if(isset($_SESSION['user_email'])){ echo $_SESSION['user_email'];} ?></span></p>
                      <p><a href="#orders" id="orders-btn">Your orders</a></p>
                      <p><a href="account.php?logout=1" id="logout-btn">Logout</a></p>
                  </div>
@@ -124,7 +124,7 @@ if(isset($_SESSION['logged_in'])){
                  <form id="account-form" method="POST" action="account.php">
                    <p class="text-center" style="color:red"><?php if(isset($_GET['error'])){ echo $_GET['error']; }?></p>
                    <p class="text-center" style="color:green"><?php if(isset($_GET['message'])){ echo $_GET['message']; }?></p>
-                     <h3>Change Password</h3>
+                     <h3>비밀번호 변경</h3>
                      <hr class="mx-auto">
                      <div class="form-group">
                          <label>Password</label>
@@ -148,17 +148,17 @@ if(isset($_SESSION['logged_in'])){
          <!--Orders-->
         <section id="orders" class="orders container my-5 py-3">
             <div class="container mt-2">
-                <h2 class="font-weight-bold text-center">Your Orders</h2>
+                <h2 class="font-weight-bold text-center">주문 내역</h2>
                 <hr class="mx-auto">
             </div>
 
             <table class="mt-5 pt-5">
                 <tr>
                     <th>Orde id</th>
-                    <th>Order cost</th>
-                    <th>Order status</th>
-                    <th>Order Date</th>
-                    <th>Order details</th>
+                    <th>금액</th>
+                    <th>주문 상태</th>
+                    <th>주문 날짜</th>
+                    <th>주문 상세정보</th>
                 </tr>
 
 

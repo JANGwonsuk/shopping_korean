@@ -9,7 +9,7 @@ session_start();
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -44,7 +44,7 @@ session_start();
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="https://www.soldesk.com/">Sponsor</a>
+                <a class="nav-link" href="http://4amticket.ml">GO AMERICA</a>
               </li>
 
               <li class="nav-item">

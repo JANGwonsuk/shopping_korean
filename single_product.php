@@ -140,7 +140,7 @@ if(isset($_GET['product_id'])){
                 <a href="single_product.php?product_id=1"><button class="buy-btn">예메 하기</button></a>
               </div>
               <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-                <img class="img-fluid mb-3" src="assets/imgs/WATERBOMB 2022 - THAILAND1.jpeg"/>
+                <img class="img-fluid mb-3" src="assets/imgs/워터밤 2022 - 서울1.jpeg"/>
                 <div class="star">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -148,7 +148,7 @@ if(isset($_GET['product_id'])){
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </div>
-                <h5 class="p-name">워터밤 2022 - 태국</h5>
+                <h5 class="p-name">워터밤 2022 - 서울</h5>
                 <h4 class="p-price">$100</h4>
                 <a href="single_product.php?product_id=2"><button class="buy-btn">예메 하기</button></a>
               </div>

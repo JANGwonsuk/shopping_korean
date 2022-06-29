@@ -134,24 +134,31 @@ if(isset($_POST['search'])){
             <h4>카테고리</h4>
             <br>
                <div class="form-check">
-                <input class="form-check-input" value="KOREA" type="radio" name="category" id="category_one" <?php if(isset($category) && $category=='KOREA'){echo 'checked';}?> >
+                <input class="form-check-input" value="CONCERT" type="radio" name="category" id="category_one" <?php if(isset($category) && $category=='CONCERT'){echo 'checked';}?> >
                 <label class="form-check-label" for="flexRadioDefault1">
-                  KOREA
+                  콘서트
                 </label>
               </div>
 
               <div class="form-check">
-                <input class="form-check-input" value="ASIA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='ASIA'){echo 'checked';}?>>
+                <input class="form-check-input" value="FANMEETING" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='FANMEETING'){echo 'checked';}?>>
                 <label class="form-check-label" for="flexRadioDefault2">
-                  ASIA
+                  팬미팅
                 </label>
               </div>
 
                <div class="form-check">
-                <input class="form-check-input" value="OCEANIA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='OCEANIA'){echo 'checked';}?>>
+                <input class="form-check-input" value="FESTIVAL" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='FESTIVAL'){echo 'checked';}?>>
                 <label class="form-check-label" for="flexRadioDefault2">
-                  OCEANIA
+                  축제
                 </label>
+                </div>
+                <div class="form-check">
+                <input class="form-check-input" value="EXHITBITION" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='EXHITBITION'){echo 'checked';}?>>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  전시회
+                </label>
+                </div>
               </div>
 
 

@@ -31,27 +31,27 @@
         <div class="row p-0 m-0">
           <!--One-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
-            <img class="img-fluid" src="assets/imgs/PSY SUMMER SWAG 2022 - INCHEON1.jpeg"/>
+            <img class="img-fluid" src="assets/imgs/usa.png"/>
             <div class="details">
-              <h2>싸이 흠뻑쇼 2022</h2>
-              <a href="single_product.php?product_id=1"><button class="buy-btn">바로가기</button></a> 
+              <h2>Go 미국 </h2>
+              <a href="http://4amticket.ml"><button class="buy-btn">바로가기</button></a> 
             </div>
           </div>
           <!--Two-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
-            <img class="img-fluid" src="assets/imgs/2022 SINCHON WATER GUB FESTIVAL1.jpeg"/>
+            <img class="img-fluid" src="assets/imgs/europe.png"/>
             <div class="details">
-              <h2>2022 신촌 물총 축제</h2>
-              <a href="single_product.php?product_id=3"><button class="buy-btn">바로가기</button></a> 
+              <h2>Go 유럽</h2>
+              <a href="https://www.instagram.com/woo___hyun_/"><button class="buy-btn">바로가기</button></a> 
             </div>
           </div>
 
           <!--Three-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
-            <img class="img-fluid" src="assets/imgs/TOTTENHAM HOTSPUR VS TEAM K-LEAGUE1.jpeg"/>
+            <img class="img-fluid" src="assets/imgs/japan.jpg"/>
             <div class="details">
-              <h2>토트넘 vs 팀K리그</h2>
-              <a href="single_product.php?product_id=4"><button class="buy-btn">바로가기</button></a> 
+              <h2>Go 일본</h2>
+              <a href="https://www.instagram.com/hohihellohi/"><button class="buy-btn">바로가기</button></a> 
             </div>
           </div>
         </div>
@@ -108,13 +108,13 @@
       <!--Clothes-->
       <section id="KOREA" class="my-5">
         <div class="container text-center mt-5 py-5">
-          <h3>한국</h3>
+          <h3>콘서트</h3>
           <hr class="mx-auto">
           <p>좋은 추억 만드세요</p>
         </div>
         <div class="row mx-auto container-fluid">
 
-        <?php include('server/get_KOREA.php'); ?>
+        <?php include('server/get_CONCERT.php'); ?>
         <?php while($row=$coats_products->fetch_assoc()){ ?>
 
           <div class="product text-center col-lg-3 col-md-4 col-sm-12">
@@ -141,13 +141,13 @@
       <!--Watches-->
      <section id="ASIA" class="my-5">
       <div class="container text-center mt-5 py-5">
-        <h3>아시아</h3>
+        <h3>팬미팅</h3>
         <hr class="mx-auto">
         <p>좋은 추억 만드세요</p>
       </div>
       <div class="row mx-auto container-fluid">
 
-      <?php include('server/get_ASIA.php'); ?>
+      <?php include('server/get_FANMEETING.php'); ?>
       <?php while($row=$watches->fetch_assoc()){ ?>
 
         <div class="product text-center col-lg-3 col-md-4 col-sm-12">
@@ -173,13 +173,13 @@
       <!--Shoes-->
       <section id="OCEANIA" class="my-5">
         <div class="container text-center mt-5 py-5">
-          <h3>오세아니아</h3>
+          <h3>축제</h3>
           <hr class="mx-auto">
           <p>좋은 추억 만드세요</p>
         </div>
         <div class="row mx-auto container-fluid">
 
-        <?php include('server/get_OCEANIA.php');?>
+        <?php include('server/get_FESTIVAL.php');?>
 
         <?php while($row=$shoes->fetch_assoc()){ ?>
 

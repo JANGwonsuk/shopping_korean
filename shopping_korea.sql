@@ -84,7 +84,7 @@ INSERT INTO `products` (`product_id`, `product_name`, `product_category`, `produ
 (9, '트래저 월드투어 - 뉴질랜드', 'OCEANIA', '2022.08.06(SAT) 18:00', 'TREASURE WORLDTOUR - NEW ZEALAND1.jpeg', 'TREASURE WORLDTOUR - NEW ZEALAND2.jpeg', 'TREASURE WORLDTOUR - NEW ZEALAND3.jpeg', 'TREASURE WORLDTOUR - NEW ZEALAND4.jpeg', '110.00', 0, 'Eden Park Reimers Avenue'),
 (10, '위너 월드투어 - 호주', 'OCEANIA', '2022.08.14(SUN) 18:00', 'WINNER WORLDTOUR - Australia1.jpeg', 'WINNER WORLDTOUR - Australia2.jpeg', 'WINNER WORLDTOUR - Australia3.jpeg', 'WINNER WORLDTOUR - Australia4.jpeg', '180.00', 0, 'Optus Stadium'),
 (11, '지코 월드투어- 호주', 'OCEANIA', '2022.08.21(SUN) 18:00', 'ZICO WORLDTOUR - Australia1.jpeg', 'ZICO WORLDTOUR - Australia2.jpeg', 'ZICO WORLDTOUR - Australia3.jpeg', 'ZICO WORLDTOUR - Australia4.jpeg', '180.00', 0, 'Anz Stadium');
-
+(12, '세븐틴 월드투어 - 태국', 'ASIA', '2022.10.01(SAT) 18:00', '세븐틴 월드투어 - 태국1.jpeg', '세븐틴 월드투어 - 태국2.jpeg', '세븐틴 월드투어 - 태국3.jpeg', '세븐틴 월드투어 - 태국4.jpeg', '200.00', 0, 'Anz Stadium');
 
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (

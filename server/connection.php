@@ -1,7 +1,7 @@
 <?php
 
 
-$conn = mysqli_connect("localhost","root","","shopping_korea")
+$conn = mysqli_connect("localhost","root","","korea")
         or die("Couldn't connect to database");
 
 

@@ -2,6 +2,7 @@
 include('layouts/header.php');
 ?>
 <?php
+ob_start();
 include('server/connection.php');
 
 
@@ -79,7 +80,7 @@ if(isset($_SESSION['logged_in'])){
 
 
 
-
+ob_end_flush();
 ?>
 
 

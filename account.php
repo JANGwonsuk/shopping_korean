@@ -1,8 +1,8 @@
 <?php
-include('layouts/header.php');?>
+include('layouts/header.php');
+exit;
+?>
 <?php
-
-
 include('server/connection.php');
 
 

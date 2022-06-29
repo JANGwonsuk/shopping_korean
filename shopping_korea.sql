@@ -73,18 +73,18 @@ CREATE TABLE `products` (
 
 
 INSERT INTO `products` (`product_id`, `product_name`, `product_category`, `product_description`, `product_image`, `product_image2`, `product_image3`, `product_image4`, `product_price`, `product_special_offer`, `product_color`) VALUES
-(1, '싸이 흠뻑쇼', 'KOREA', '2022.07.16(SAT) 18:00', 'PSY SUMMER SWAG 2022 - INCHEON1.jpeg', 'PSY SUMMER SWAG 2022 - INCHEON2.jpeg', 'PSY SUMMER SWAG 2022 - INCHEON3.jpeg', 'PSY SUMMER SWAG 2022 - INCHEON4.jpeg', '100.00', 0, '인천아시아드주경기장'),
-(2, '워터밤 2022 - 태국', 'ASIA', '2022.07.25(SUN) 14:00', 'WATERBOMB 2022 - THAILAND1.jpeg', 'WATERBOMB 2022 - THAILAND2.jpeg', 'WATERBOMB 2022 - THAILAND3.jpeg', 'WATERBOMB 2022 - THAILAND4.jpeg', '100.00', 0, 'IMPACT Arena Building'),
-(3, '신촌 물총 축제 2022 ', 'KOREA', '2022.07.30(SAT) 13:00', '2022 SINCHON WATER GUB FESTIVAL1.jpeg', '2022 SINCHON WATER GUB FESTIVAL2.jpeg', '2022 SINCHON WATER GUB FESTIVAL3.jpeg', '2022 SINCHON WATER GUB FESTIVAL4.jpeg', '30.00', 0, '신촌역'),
-(4, '토트넘 VS 팀 K리그', 'KOREA', '2022.07.13(WED) 20:00', 'TOTTENHAM HOTSPUR VS TEAM K-LEAGUE1.jpeg', 'TOTTENHAM HOTSPUR VS TEAM K-LEAGUE2.jpeg', 'TOTTENHAM HOTSPUR VS TEAM K-LEAGUE3.jpeg', 'TOTTENHAM HOTSPUR VS TEAM K-LEAGUE4.jpeg', '120.00', 0, '서울월드컵경기장'),
-(5, 'NCT 월드투어 - 호주', 'OCEANIA', '2022.07.16(SAT) 18:00', 'NCT WORLDTOUR - Australia1.jpeg', 'NCT WORLDTOUR - Australia2.jpeg', 'NCT WORLDTOUR - Australia3.jpeg', 'NCT WORLDTOUR - Australia4.jpeg', '200.00', 0, 'Accor Stadium'),
-(6, '힙합 플레이야 2022 - 서울', 'KOREA', '2022.09.17(SAT) 15:00', 'HIPHOP PLAYA 20221.jpeg', 'HIPHOP PLAYA 20222.jpeg', 'HIPHOP PLAYA 20223.jpeg', 'HIPHOP PLAYA 20224.jpeg', '50.00', 0, '난지한강공원'),
-(7, '레드벨벳 월드투어 - 도쿄', 'ASIA', '2022.07.30(SAT) 18:00', 'RED VElVET CONCERT - TOKYO1.jpeg', 'RED VElVET CONCERT - TOKYO2.jpeg', 'RED VElVET CONCERT - TOKYO3.jpeg', 'RED VElVET CONCERT - TOKYO4.jpeg', '200.00', 0, 'Tokyo Dome'),
-(8, '엑소 월드투어 - 오사카', 'ASIA', '2022.09.13(SAT) 18:00', 'EXO WORLDTOUR - OSAKA1.jpeg', 'EXO WORLDTOUR - OSAKA2.jpeg', 'EXO WORLDTOUR - OSAKA3.jpeg', 'EXO WORLDTOUR - OSAKA4.jpeg', '220.00', 0, 'Osaka-jo Hall'),
-(9, '트래저 월드투어 - 뉴질랜드', 'OCEANIA', '2022.08.06(SAT) 18:00', 'TREASURE WORLDTOUR - NEW ZEALAND1.jpeg', 'TREASURE WORLDTOUR - NEW ZEALAND2.jpeg', 'TREASURE WORLDTOUR - NEW ZEALAND3.jpeg', 'TREASURE WORLDTOUR - NEW ZEALAND4.jpeg', '110.00', 0, 'Eden Park Reimers Avenue'),
-(10, '위너 월드투어 - 호주', 'OCEANIA', '2022.08.14(SUN) 18:00', 'WINNER WORLDTOUR - Australia1.jpeg', 'WINNER WORLDTOUR - Australia2.jpeg', 'WINNER WORLDTOUR - Australia3.jpeg', 'WINNER WORLDTOUR - Australia4.jpeg', '180.00', 0, 'Optus Stadium'),
-(11, '지코 월드투어- 호주', 'OCEANIA', '2022.08.21(SUN) 18:00', 'ZICO WORLDTOUR - Australia1.jpeg', 'ZICO WORLDTOUR - Australia2.jpeg', 'ZICO WORLDTOUR - Australia3.jpeg', 'ZICO WORLDTOUR - Australia4.jpeg', '180.00', 0, 'Anz Stadium');
-(12, '세븐틴 월드투어 - 태국', 'ASIA', '2022.10.01(SAT) 18:00', '세븐틴 월드투어 - 태국1.jpeg', '세븐틴 월드투어 - 태국2.jpeg', '세븐틴 월드투어 - 태국3.jpeg', '세븐틴 월드투어 - 태국4.jpeg', '200.00', 0, 'Anz Stadium');
+(1, '싸이 흠뻑쇼', 'FESTIVAL', '2022.07.16(SAT) 18:00', 'PSY SUMMER SWAG 2022 - INCHEON1.jpeg', 'PSY SUMMER SWAG 2022 - INCHEON2.jpeg', 'PSY SUMMER SWAG 2022 - INCHEON3.jpeg', 'PSY SUMMER SWAG 2022 - INCHEON4.jpeg', '100.00', 0, '인천아시아드주경기장'),
+(2, '워터밤 2022 - 서울', 'FESTIVAL', '2022.07.25(SUN) 14:00', '워터밤 2022 - 서울1.jpeg', '워터밤 2022 - 서울2.jpeg', '워터밤 2022 - 서울3.jpeg', '워터밤 2022 - 서울4.jpeg', '100.00', 0, '잠실종합운동장'),
+(3, '신촌 물총 축제 2022 ', 'FESTIVAL', '2022.07.30(SAT) 13:00', '2022 SINCHON WATER GUB FESTIVAL1.jpeg', '2022 SINCHON WATER GUB FESTIVAL2.jpeg', '2022 SINCHON WATER GUB FESTIVAL3.jpeg', '2022 SINCHON WATER GUB FESTIVAL4.jpeg', '30.00', 0, '신촌역'),
+(4, '토트넘 VS 팀 K리그', 'FANMEETING', '2022.07.13(WED) 20:00', 'TOTTENHAM HOTSPUR VS TEAM K-LEAGUE1.jpeg', 'TOTTENHAM HOTSPUR VS TEAM K-LEAGUE2.jpeg', 'TOTTENHAM HOTSPUR VS TEAM K-LEAGUE3.jpeg', 'TOTTENHAM HOTSPUR VS TEAM K-LEAGUE4.jpeg', '120.00', 0, '서울월드컵경기장'),
+(5, 'NCT 월드투어 - 서울', 'CONCERT', '2022.07.16(SAT) 18:00', 'NCT WORLDTOUR - Australia1.jpeg', 'NCT WORLDTOUR - Australia2.jpeg', 'NCT WORLDTOUR - Australia3.jpeg', 'NCT WORLDTOUR - Australia4.jpeg', '200.00', 0, '서울월드컵경기장'),
+(6, '힙합 플레이야 2022 - 서울', 'FESTIVAL', '2022.09.17(SAT) 15:00', 'HIPHOP PLAYA 20221.jpeg', 'HIPHOP PLAYA 20222.jpeg', 'HIPHOP PLAYA 20223.jpeg', 'HIPHOP PLAYA 20224.jpeg', '50.00', 0, '난지한강공원'),
+(7, '레드벨벳 콘서트 - 부산', 'CONCERT', '2022.07.30(SAT) 18:00', 'RED VElVET CONCERT - TOKYO1.jpeg', 'RED VElVET CONCERT - TOKYO2.jpeg', 'RED VElVET CONCERT - TOKYO3.jpeg', 'RED VElVET CONCERT - TOKYO4.jpeg', '200.00', 0, '사직야구장'),
+(8, '엑소 팬미팅 - 서울', 'FANMEETING', '2022.09.13(SAT) 18:00', 'EXO WORLDTOUR - OSAKA1.jpeg', 'EXO WORLDTOUR - OSAKA2.jpeg', 'EXO WORLDTOUR - OSAKA3.jpeg', 'EXO WORLDTOUR - OSAKA4.jpeg', '220.00', 0, '서울월드컵경기장'),
+(9, '트래저 콘서트 - 서울', 'CONCERT', '2022.08.06(SAT) 18:00', 'TREASURE WORLDTOUR - NEW ZEALAND1.jpeg', 'TREASURE WORLDTOUR - NEW ZEALAND2.jpeg', 'TREASURE WORLDTOUR - NEW ZEALAND3.jpeg', 'TREASURE WORLDTOUR - NEW ZEALAND4.jpeg', '110.00', 0, '잠실종합운동장'),
+(10, '위너 팬미팅 - 서울', 'FANMEETING', '2022.08.14(SUN) 18:00', 'WINNER WORLDTOUR - Australia1.jpeg', 'WINNER WORLDTOUR - Australia2.jpeg', 'WINNER WORLDTOUR - Australia3.jpeg', 'WINNER WORLDTOUR - Australia4.jpeg', '180.00', 0, '서울월드컵경기장'),
+(11, '지코 콘서트 - 대전', 'CONCERT', '2022.08.21(SUN) 18:00', 'ZICO WORLDTOUR - Australia1.jpeg', 'ZICO WORLDTOUR - Australia2.jpeg', 'ZICO WORLDTOUR - Australia3.jpeg', 'ZICO WORLDTOUR - Australia4.jpeg', '180.00', 0, '대전종합운동장'),
+(12, '세븐틴 팬미팅 - 부산', 'FANMEETING', '2022.10.01(SAT) 18:00', '세븐틴 월드투어 - 태국1.jpeg', '세븐틴 월드투어 - 태국2.jpeg', '세븐틴 월드투어 - 태국3.jpeg', '세븐틴 월드투어 - 태국4.jpeg', '200.00', 0, '사직야구장');
 
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (

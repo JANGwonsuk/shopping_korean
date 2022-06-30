@@ -34,7 +34,7 @@
             <img class="img-fluid" src="assets/imgs/usa.png"/>
             <div class="details">
               <h2>Go 미국 </h2>
-              <a href="http://4amticket.ml"><button class="buy-btn">바로가기</button></a> 
+              <a href="https://www.4amticketusa.tk"><button class="buy-btn">바로가기</button></a> 
             </div>
           </div>
           <!--Two-->

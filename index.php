@@ -105,7 +105,7 @@
       </section>
    
 
-      <!--Clothes-->
+      <!--콘서트-->
       <section id="KOREA" class="my-5">
         <div class="container text-center mt-5 py-5">
           <h3>콘서트</h3>
@@ -138,7 +138,7 @@
       </section>
 
 
-      <!--Watches-->
+      <!--팬미팅-->
      <section id="ASIA" class="my-5">
       <div class="container text-center mt-5 py-5">
         <h3>팬미팅</h3>
@@ -170,7 +170,7 @@
       </div>
      </section>
 
-      <!--Shoes-->
+      <!--축제-->
       <section id="OCEANIA" class="my-5">
         <div class="container text-center mt-5 py-5">
           <h3>축제</h3>

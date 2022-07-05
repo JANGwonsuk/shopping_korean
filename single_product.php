@@ -135,7 +135,7 @@ if(isset($_GET['product_id'])){
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </div>
-                <h5 class="p-name">싸이 흠뻑쇼 2022 - 인천</h5>
+                <h5 class="p-name">싸이 흠뻑쇼 2022 - 인천q</h5>
                 <h4 class="p-price">$100</h4>
                 <a href="single_product.php?product_id=1"><button class="buy-btn">예메 하기</button></a>
               </div>

@@ -32,10 +32,10 @@ if(isset($_POST['login_btn'])){
         $_SESSION['user_email'] = $user_email;
         $_SESSION['logged_in'] = true;
 
-        header('location: account.php?login_success=logged in successfully');
+        header('location: account.php?login_success=로그인 성공');
 
       }else{
-        header('location: login.php?error=could not verify your account');
+        header('location: login.php?error=비밀번호가 틀렸습니다.');
       }
 
   }else{

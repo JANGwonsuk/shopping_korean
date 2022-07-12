@@ -1,0 +1,49 @@
+name: Push images to Dockerhub and deploy on ELastic Beanstalk
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # 깃허브 액션 스크립트가 작동될 OS 환경 지정
+
+
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2 # 프로젝트 코드를 check out
+
+      - name: Docker Login
+        uses: docker/login-action@v1.8.0
+        with:
+          username: ${{secrets.DOCKERHUB_USERNAME}}
+          password: ${{secrets.DOCKERHUB_TOKEN}}
+          logout: true
+
+
+      - name: Build image
+        run: docker build -t t900341/4amticket-korea -f
+                    ./Dockerfile ./
+      - name: Tag our Image
+        run: docker tag t900341/4amticket-korea 
+                    t900341/4amticket-korea:latest
+      - name: Push to dockerhub
+        run: docker push t900341/4amticket-korea
+
+
+      - name: Generate deployment package
+        run: zip -r deploy.zip . -x '*.git*' 
+
+
+      - name: Deploy to EB
+        uses: einaregilsson/beanstalk-deploy@v20
+        with:
+          aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          application_name: 4amticket-kor
+          environment_name: 4amticketkor-env
+          version_label: Deploy-final
+          region: ap-northeast-2
+          deployment_package: deploy.zip
